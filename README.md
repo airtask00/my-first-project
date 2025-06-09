@@ -1,93 +1,93 @@
-# 📝 TaskTracker: ابزار مدیریت وظایف ساده
+# 📝 TaskTracker: Simple Task Management Tool
 
 ![Python Badge](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 🌟 درباره TaskTracker
+## 🌟 About TaskTracker
 
-TaskTracker یک ابزار خط فرمان (CLI) سبک و کاربرپسند برای مدیریت وظایف روزانه شماست. این ابزار به شما کمک می‌کند تا لیست کارهایتان را ایجاد کنید، وظایف انجام شده را علامت بزنید و وظایف معلق را مشاهده کنید. طراحی شده برای سادگی و کارایی، تا بتوانید بدون اتلاف وقت روی کارهای مهم خود تمرکز کنید.
-
----
-
-## ✨ امکانات اصلی
-
-* **افزودن وظایف جدید:** به راحتی وظایف را به لیست خود اضافه کنید.
-* **علامت‌گذاری وظایف به عنوان انجام شده:** وظایف تکمیل شده را به عنوان "Done" علامت بزنید.
-* **مشاهده لیست وظایف:** تمامی وظایف معلق یا انجام شده را مشاهده کنید.
-* **حذف وظایف:** وظایف را از لیست خود حذف کنید.
-* **ذخیره‌سازی پایدار:** وظایف شما در یک فایل محلی ذخیره می‌شوند تا حتی پس از بستن برنامه، در دسترس باشند.
+TaskTracker is a lightweight and user-friendly Command Line Interface (CLI) tool for managing your daily tasks. It helps you create your to-do list, mark tasks as complete, and view pending tasks. Designed for simplicity and efficiency, so you can focus on your important work without wasting time.
 
 ---
 
-## 🚀 نحوه نصب
+## ✨ Key Features
 
-برای نصب TaskTracker، مطمئن شوید که **Python 3.9** یا بالاتر روی سیستم شما نصب شده است.
+* **Add New Tasks:** Easily add tasks to your list.
+* **Mark Tasks as Done:** Mark completed tasks as "Done."
+* **View Task List:** See all pending or completed tasks.
+* **Delete Tasks:** Remove tasks from your list.
+* **Persistent Storage:** Your tasks are saved in a local file so they remain available even after closing the program.
 
-1.  **کلون کردن مخزن:**
+---
+
+## 🚀 How to Install
+
+To install TaskTracker, ensure **Python 3.9** or higher is installed on your system.
+
+1.  **Clone the Repository:**
     ```bash
     git clone [https://github.com/YourUsername/TaskTracker.git](https://github.com/YourUsername/TaskTracker.git)
     cd TaskTracker
     ```
 
-2.  **نصب وابستگی‌ها:**
+2.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-    (در صورتی که فایل `requirements.txt` دارید. اگر نه، این مرحله را نادیده بگیرید.)
+    (If you have a `requirements.txt` file. Otherwise, skip this step.)
 
 ---
 
-## 💡 نحوه استفاده
+## 💡 How to Use
 
-پس از نصب، می‌توانید TaskTracker را با دستورات زیر اجرا کنید:
+After installation, you can run TaskTracker with the following commands:
 
-* **اضافه کردن وظیفه:**
+* **Add a Task:**
     ```bash
-    python main.py add "خرید نان"
+    python main.py add "Buy groceries"
     ```
 
-* **مشاهده تمامی وظایف:**
+* **View All Tasks:**
     ```bash
     python main.py list
     ```
-    یا فقط وظایف معلق:
+    Or only pending tasks:
     ```bash
     python main.py list --pending
     ```
 
-* **علامت‌گذاری وظیفه به عنوان انجام شده (با استفاده از شماره ردیف):**
+* **Mark Task as Done (using row number):**
     ```bash
     python main.py complete 1
     ```
-    (شماره 1 به اولین وظیفه در لیست `list` اشاره دارد.)
+    (Number 1 refers to the first task in the `list` output.)
 
-* **حذف وظیفه (با استفاده از شماره ردیف):**
+* **Delete Task (using row number):**
     ```bash
     python main.py delete 2
     ```
 
 ---
 
-## 🤝 مشارکت
+## 🤝 Contributing
 
-از هرگونه مشارکت در بهبود TaskTracker استقبال می‌کنیم! لطفاً مراحل زیر را دنبال کنید:
+We welcome any contributions to improve TaskTracker! Please follow these steps:
 
-1.  مخزن را فورک (Fork) کنید.
-2.  یک شاخه (Branch) جدید برای تغییرات خود ایجاد کنید (`git checkout -b feature/AmazingFeature`).
-3.  تغییرات خود را کامیت (Commit) کنید (`git commit -m 'Add some AmazingFeature'`).
-4.  تغییرات را به شاخه اصلی خود پوش (Push) کنید (`git push origin feature/AmazingFeature`).
-5.  یک پول ریکوئست (Pull Request) باز کنید.
-
----
-
-## 📄 لایسنس
-
-این پروژه تحت لایسنس MIT منتشر شده است. برای اطلاعات بیشتر، فایل `LICENSE` را مطالعه کنید.
+1.  Fork the repository.
+2.  Create a new branch for your changes (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push your changes to your fork's main branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
 
 ---
 
-## ✉️ تماس با ما
+## 📄 License
 
-اگر سوال یا پیشنهادی دارید، می‌توانید از طریق ایمیل به [your.email@example.com](mailto:your.email@example.com) با من در تماس باشید.ر
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+## ✉️ Contact Us
+
+If you have any questions or suggestions, feel free to contact me via email at [your.email@example.com](mailto:your.email@example.com).
